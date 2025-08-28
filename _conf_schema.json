@@ -1,0 +1,27 @@
+{
+	"use_proxy": {
+		"description": "是否启用代理",
+		"type": "bool",
+		"default": false
+	},
+	"proxy_url": {
+		"description": "代理地址(http/https)",
+		"type": "string",
+		"default": ""
+	},
+	"model": {
+		"description": "OpenRouter 模型",
+		"type": "string",
+		"default": "google/gemini-2.5-flash-image-preview:free"
+	},
+	"max_tokens": {
+		"description": "最大 tokens",
+		"type": "int",
+		"default": 1000
+	},
+	"request_timeout_sec": {
+		"description": "请求超时(秒)",
+		"type": "float",
+		"default": 60.0
+	}
+} 

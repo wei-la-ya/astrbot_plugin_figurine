@@ -1,0 +1,11 @@
+name: figurine
+label: 手办化 Figurine
+author: auto
+description: 将头像/图片手办化，支持 #手办化1~4 与 Q版化，支持@QQ或紧贴QQ号。
+version: 0.2.0
+homepage: ""
+license: MIT
+tags:
+  - image
+  - openrouter
+  - figurine 

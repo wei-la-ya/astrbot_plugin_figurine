@@ -1,0 +1,22 @@
+{
+	"name": "figurine",
+	"display_name": "手办化 Figurine",
+	"description": "将头像/图片手办化，支持 #手办化1~4 与 Q版化，支持@QQ或紧贴QQ号。",
+	"version": "0.2.0",
+	"author": "auto",
+	"license": "MIT",
+	"homepage": "",
+	"entry": "astrbot_plugin_figurine.main:FigurinePlugin",
+	"requirements": [
+		"httpx>=0.27.0"
+	],
+	"tags": ["image", "openrouter", "figurine"],
+	"platforms": ["qq", "universal"],
+	"config": {
+		"data_dir": "data/figurine",
+		"keys_file": "data/figurine/openrouter_keys.json",
+		"model": "google/gemini-2.5-flash-image-preview:free",
+		"use_proxy": false,
+		"proxy_url": ""
+	}
+} 
